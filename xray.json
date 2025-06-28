@@ -1,0 +1,19 @@
+{
+  "inbounds": [
+    {
+      "port": 10000,
+      "protocol": "vless",
+      "settings": {
+        "clients": [{"id":"9d4a633d-50fb-4d85-a290-524cc9c03315"}],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {},
+        "wsSettings": {"path":"/ws","headers": {"Host":"YOUR_RENDER_DOMAIN"}}
+      }
+    }
+  ],
+  "outbounds": [{"protocol":"freedom"}]
+}
